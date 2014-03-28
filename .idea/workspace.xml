@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="941541b8-073a-4b57-91e1-a1c1dd946743" name="Default" comment="" />
+    <ignored path="calendario.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="calendario" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="treino_ui_if.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/treino_ui_if.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="58" selection-start="8737" selection-end="8741" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="4522">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workshop_ui.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop_ui.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="162" column="12" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="4981">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inscricao_treino.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/inscricao_treino.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="7" selection-start="3050" selection-end="3050" vertical-scroll-proportion="-0.0" vertical-offset="1428" max-vertical-offset="15487">
+              <folding>
+                <marker date="1393241843154" expanded="true" signature="3425:3619" placeholder="INSERT INTO ..." />
+                <marker date="1393241843154" expanded="true" signature="7618:8136" placeholder="INSERT INTO ..." />
+                <marker date="1393241843154" expanded="true" signature="25477:26118" placeholder="INSERT INTO ..." />
+                <marker date="1393241843154" expanded="true" signature="30219:30301" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detalhes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/detalhes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="284" column="47" selection-start="11218" selection-end="11218" vertical-scroll-proportion="0.0" vertical-offset="4522" max-vertical-offset="12495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validar_user_email.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/validar_user_email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="44" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getEvoInfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/getEvoInfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-9.153846" vertical-offset="697" max-vertical-offset="4352">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verifica_mta.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/verifica_mta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_cpf_evo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/test_cpf_evo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="26" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validar_cupom.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/validar_cupom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="799">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/form_cad.html" />
+        <option value="$PROJECT_DIR$/treino_ui_if.html" />
+        <option value="$PROJECT_DIR$/workshop_ui.html" />
+        <option value="$PROJECT_DIR$/services/getEvoInfo.php" />
+        <option value="$PROJECT_DIR$/services/inscricao_treino.php" />
+        <option value="$PROJECT_DIR$/services/validar_user_email.php" />
+        <option value="$PROJECT_DIR$/services/test_cpf_evo.php" />
+        <option value="$PROJECT_DIR$/js/detalhes.js" />
+        <option value="$PROJECT_DIR$/treino_ui.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dashboard-iso" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="941541b8-073a-4b57-91e1-a1c1dd946743" name="Default" comment="" />
+      <created>1391606403769</created>
+      <updated>1391606403769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17199148" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/detalhes_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="7" selection-start="9549" selection-end="9549" vertical-scroll-proportion="0.0" vertical-offset="2720" max-vertical-offset="5202">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui_if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="58" selection-start="8737" selection-end="8741" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="12" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="4981">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/inscricao_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="7" selection-start="3050" selection-end="3050" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="15487">
+          <folding>
+            <marker date="1393241843154" expanded="true" signature="3425:3619" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="7618:8136" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="25477:26118" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="30219:30301" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/detalhes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="47" selection-start="11218" selection-end="11218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validar_user_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/getEvoInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="147" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="4352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/test_cpf_evo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="26" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validar_cupom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="16" selection-start="5223" selection-end="5227" vertical-scroll-proportion="0.0" vertical-offset="2714" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="23" selection-start="9362" selection-end="9366" vertical-scroll-proportion="0.0" vertical-offset="2686" max-vertical-offset="5219">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui_if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="58" selection-start="8737" selection-end="8741" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="12" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="4981">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/inscricao_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="779" column="0" selection-start="30478" selection-end="30478" vertical-scroll-proportion="0.0" vertical-offset="13243" max-vertical-offset="15487">
+          <folding>
+            <marker date="1393241843154" expanded="true" signature="3425:3619" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="7618:8136" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="25477:26118" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="30219:30301" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/detalhes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="73" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="12376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/getEvoInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="111" selection-start="5040" selection-end="5040" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="3689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validar_cupom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="16" selection-start="5223" selection-end="5227" vertical-scroll-proportion="0.0" vertical-offset="2714" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="23" selection-start="9362" selection-end="9366" vertical-scroll-proportion="0.0" vertical-offset="2686" max-vertical-offset="5219">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui_if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="58" selection-start="8737" selection-end="8741" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="12" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4981">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/inscricao_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="352" column="13" selection-start="13183" selection-end="13183" vertical-scroll-proportion="0.0" vertical-offset="5984" max-vertical-offset="11424">
+          <folding>
+            <marker date="1393241843154" expanded="true" signature="3425:3619" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="7618:8136" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="25477:26118" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="30219:30301" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validar_cupom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="16" selection-start="5223" selection-end="5227" vertical-scroll-proportion="0.0" vertical-offset="2714" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="23" selection-start="9362" selection-end="9366" vertical-scroll-proportion="0.0" vertical-offset="2686" max-vertical-offset="5219">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui_if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="58" selection-start="8737" selection-end="8741" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="12" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="4964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendar_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7884345" vertical-offset="1977" max-vertical-offset="2686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_cad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="72" selection-start="3170" selection-end="3170" vertical-scroll-proportion="0.33235726" vertical-offset="572" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="12" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="4964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validar_user_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/test_cpf_evo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="26" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/detalhes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="47" selection-start="11218" selection-end="11218" vertical-scroll-proportion="0.0" vertical-offset="4522" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="7" selection-start="9549" selection-end="9549" vertical-scroll-proportion="-104.61539" vertical-offset="0" max-vertical-offset="5202">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/inscricao_treino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="7" selection-start="3050" selection-end="3050" vertical-scroll-proportion="-0.0" vertical-offset="1428" max-vertical-offset="15487">
+          <folding>
+            <marker date="1393241843154" expanded="true" signature="3425:3619" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="7618:8136" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="25477:26118" placeholder="INSERT INTO ..." />
+            <marker date="1393241843154" expanded="true" signature="30219:30301" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/getEvoInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-9.153846" vertical-offset="697" max-vertical-offset="4352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/verifica_mta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1101">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/getCodigoPromotor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="452" selection-end="452" vertical-scroll-proportion="0.16129032" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validar_cupom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_ui_if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="58" selection-start="8737" selection-end="8741" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

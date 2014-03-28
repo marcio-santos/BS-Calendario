@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="frame" class="frame">
+<table width="100%" class="tablex">
+<tr>
+	<td valign="top" class="tdx" id="dados_pessoais"	>
+    	<div id="login" class="interna">
+    	<ul class="main">
+        	<li style="font-size:16px">Seus dados</li>
+        	<li><input type="text" size="30" placeholder="Digite seu CPF" id="cpf" name="cpf" /></li>
+            <li><input type="text" size="30" placeholder="Digite sua senha" id="password" name="password" /></li>
+        </ul>
+        </div>
+        <div id="response" class="interna">dados pessoais</div>
+       <hr style="border:1px dashed gray;margin-top:10px;margin-bottom:10px;" />
+        <div id="endereco" class="interna">endereco</div>
+        <ul class="main"><li><input type="checkbox" id="entrega" style="font-size:22px" name="entrega" checked="checked"/>Este é o endereço de remessa</li></ul>
+        <div id="entrega" class="interna">endereco_entrega</div>
+    </td>
+    <td  class="tdx" valign="top" id="dados_pagamento">
+    	<div id="pagamento" class="interna">
+        	<ul class="main">
+        		<li style="font-size:16px">Pagamento</li>            
+            	<li><input class="opt" type="radio" id="boleto" style="font-size:22px" name="pagto" checked="checked"/>ICO_BOLETO</li>
+                <li><input class="opt" type="radio" id="pagseguro" style="font-size:22px" name="pagto" />ICO_PAGSEGURO</li>
+            </ul>
+        </div>
+    </td>
+    <td valign="top" class="tdx" id="resumo">
+    	<div id="evento" class="resumo">
+        $EVENTO<br />
+		$LOCAL<br />
+		$DATA
+        </div>
+    	<div id="resumo" class="interna">
+        	<ul class="main">
+            	<li>Valor por programa: $total</li>
+                <li>Valor do frete: $frete</li>
+                <li>Valor do Evento: $evento</li>
+            </ul>
+            <hr style="border:1px dashed gray;margin-top:10px;margin-bottom:10px;" />
+            <div id="div_voucher" style="display:block;">
+            <input type="text" id="voucher" name="voucher" placeholder="Cupom de desconto" size="15" />&nbsp;<input type="button" id="aplicar_voucher" value="&nbsp;aplicar&nbsp;" />
+            </div>
+            <hr style="border:1px dashed gray;margin-top:10px;margin-bottom:10px;" />
+            <div id="finish" style="display:inline-block;width:100%;" align="center">
+            <button type="button" name="bt_finish" value="" class="css3button">&nbsp;Finalizar&nbsp;</button>
+            </div>
+        </div>
+    </td>
+ </tr>
+</table>
+</div>
+</body>
+</html>

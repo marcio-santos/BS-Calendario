@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<select name='lista_ws'><option value='0'>SELECIONE UM EVENTO</option>
+<option value="ARACAJU">ARACAJÚ</option>
+<option value="BAURU">BAURU</option>
+<option value="BELÉM">BELÉM</option>
+<option value="BELO HORIZONTE">BELO HORIZONTE</option>
+<option value="BRASÍLIA">BRASÍLIA</option>
+<option value="CAMPINAS">CAMPINAS</option>
+<option value="CAMPO GRANDE">CAMPO GRANDE</option>
+<option value="CHAPECÓ">CHAPECÓ</option>
+<option value="CUIABÁ">CUIABÁ</option>
+<option value="CURITIBA">CURITIBA</option>
+<option value="FORTALEZA">FORTALEZA</option>
+<option value="GOIÂNIA">GOIÂNIA</option>
+<option value="ITAPEMA">ITAPEMA</option>
+<option value="JOÃO PESSOA">JOÃO PESSOA</option>
+<option value="LONDRINA">LONDRINA</option>
+<option value="MACEIÓ">MACEIÓ</option>
+<option value="MANAUS">MANAUS</option>
+<option value="NATAL">NATAL</option>
+<option value="NITERÓI">NITERÓI</option>
+<option value="PORTO ALEGRE">PORTO ALEGRE</option>
+<option value="PORTO VELHO">PORTO VELHO</option>
+<option value="RECIFE">RECIFE</option>
+<option value="RIBEIRÃO PRETO">RIBEIRÃO PRETO</option>
+<option value="RIO DE JANEIRO">RIO DE JANEIRO</option>
+<option value="SANTOS">SANTOS</option>
+<option value="SÃO JOSÉ DO RIO PRETO">SÃO JOSÉ DO RIO PRETO</option>
+<option value="SÃO JOSÉ DOS CAMPOS">SÃO JOSÉ DOS CAMPOS</option>
+<option value="SÃO PAULO">SÃO PAULO</option>
+<option value="UBERLÂNDIA">UBERLÂNDIA</option>
+<option value="VITÓRIA">VITÓRIA</option>
+</select>
+
+
+
+<div id='retirar_ws' style="display:none;">
+<form id="envio_ws" name="envio_ws" action="pedidometro.php" target="_blank" method="post">
+<div style="float:inherit; padding-left:20px;">
+<p align="center" style="margin-left:10px;"><strong>"A data do Evento será divulgada a partir de Agosto/13"</strong><br />
+Caso o material não seja retirado no Evento, ficará disponível para<br />
+recebimento através de correio durante 30 dias com o custo do Sedex. Mas para isto é necessário que você contate a Central por telefone.</p>
+</div>
+{EVENTOS}
+<input type="hidden" name="userid" id="userid" value="{USERID}" />
+<input type="hidden" name="email" id="email" value="{EMAIL}" />
+<input type="hidden" name="evoid" id="evoid" value="{EVOID}" />
+<input type="hidden" name="rodada_atual" value="{RODADA_ATUAL}" />
+<input type="hidden" name="nome" id="nome" value="{NOME}" />
+<input type="hidden" name="razao_social" id="razao_social" value="{RAZAO_SOCIAL}" />
+<input type="hidden" name="lic_prog" id="lic_prog" value="{LIC_PROG}" />
+<input type="hidden" name="data_solic" id="data_solic" value="{DATA_SOLIC}" />
+<input type="hidden" name="tipo_envio" id="tipo_envio" value="Retirada WS" />
+<input type="hidden" name="tipo_pagto" id="tipo_pagto" value="nd" />
+<input type="hidden" name="valor_frete" id="valor_frete" value="0" /><br/>
+<input type="checkbox" name="sempre" id="sempre" value="1"/><label for="sempre"><strong> Desejo sempre retirar meus cartazes neste evento</strong><br />(caso o cartaz não seja retirado no evento, o envio automático para a rodada seguinte não será feito.)</label>
+<br />
+<input type="image" src="http://bodysystems.net/images/button_solicitar.png" alt="SOLICITAR" name="submit" />
+</form>
+</div>
+
+
+<div align="left" id='retirar_correio' style="display:none; margin-top:20px; margin-left:20px;">
+<form id="correios" name="correios" action="_ferramentas/solicitar_cartaz/pedidometro.php" target="_blank" method="post">
+<span style="padding-left:22px">CONFIRA SEU ENDEREÇO E EM CASO DE ALTERAÇÃO ENTRE EM CONTATO COM </span><br />
+<span style="padding-left:22px">NOSSO SUPORTE.</span><br />
+<span style="padding-left:20px">*não esqueça de completar o endereço com o número!</span>
+<table style="padding-left:20px">
+<tr><td><small>Logradouro</small></td><td><small>Número</small></td><td><small>Compl.</small></td></tr>
+<tr>
+<td><input type="text" name="endereco" id="endereco" value="{ENDERECO}" size="50" /></td><td><input name="num" type="text" id="num" value="" size="5" /></td><td><input name="compl" type="text" id="compl" value="" maxlength="10" size="5" />
+</tr>
+<tr><td><small>Bairro <span style="padding-left:135px">Cidade</span></small></td><td><small>Estado</small></td><td><small>CEP</small></td></tr>
+<tr>
+<td><input type="text" name="bairro" id="bairro" value="{BAIRRO}" size="22" />&nbsp;<input type="text" name="cidade" id="cidade" size="22" value="{CIDADE}" /></td><td><input type="text" name="estado" id="estado" size="2" value="{ESTADO}" /></td><td><input type="text"  size="8" name="cep" id="cep" value="{CEP}" /></td>
+<tr>
+<td colspan="3">
+
+<input type="hidden" name="userid" id="userid" value="{USERID}" />
+<input type="hidden" name="evoid" id="evoid" value="{EVOID}" />
+<input type="hidden" name="nome" id="nome" value="{NOME}" />
+<input type="hidden" name="razao_social" id="razao_social" value="{RAZAO_SOCIAL}" />
+<input type="hidden" name="lic_prog" id="lic_prog" value="{LIC_PROG}" />
+<input type="hidden" name="rodada_atual" value="{RODADA_ATUAL}" />
+<input type="hidden" name="data_solic" id="data_solic" value="{DATA_SOLIC}" />
+<input type="hidden" name="tipo_envio" id="tipo_envio" value="ENVIO CORREIO" />
+<input type="hidden" name="tipo_pagto" id="tipo_pagto" value="{TIPO_PAGTO}" />
+<input type="hidden" name="valor_frete" id="valor_frete" value="{FRETE}" />
+<br />
+<div align="center"><input type="image" name="submit" src="http://bodysystems.net/images/button_solicitar.png" title="Pagar com Boleto" /></div>
+
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+<div align="center" id='div_boleto' name='div_boleto' style="display:none; margin-top:20px; margin-left:20px;">
+<!--<form id="form_boleto" target="_blank" name="form_boleto" method="post" action="boleto_tc.php">-->
+<form id="form_boleto" target="_blank" name="form_boleto" method="post" action="boleto_itau_ws.php">
+      <input type="hidden" name="d1" value="ENVIO DE MATERIAL PROMOCIONAL" />
+      <input type="hidden" name="d2" value="{EVOID}" />
+      <input type="hidden" name="d3" value="{d3}" />
+      <input type="hidden" name="i2" value="Uso interno BS:{DATA_SOLIC}" />
+      <input type="hidden" name="sac" value="{sac}" />
+      <input type="hidden" name="e2" value="{e2}" />
+      <input type="hidden" name="e1" value="{e1}" />
+      <input type="hidden" name="promocode" value="np" />
+      <input type="hidden" name="vc" value="{FRETE}" />
+      <input type="hidden" name="valor_frete" value="{FRETE}" />
+      <input type="hidden" name="i1" value="NÃO RECEBER APÓS A DATA DO VENCIMENTO" />  
+      <input type="hidden" name="i1" value="{i2}" />  
+      <input type="hidden" name="i3" value="PAGAMENTO REF. ENVIO VIA SEDEX" />
+      <input type="hidden" name="u" value="1" />
+      <input type="hidden" name="d" value="3" />  
+      <input type="hidden" name="ns" value="{ns}" />  
+      <input type="hidden" name="nd" value="{d2}" />              
+</form>
+
+<table id="botoes" width="800px">
+<tr>
+<td width="280px">
+<fieldset id="fs_botoes" name="fs_botoes" style="padding-top:10px;">
+<legend>Escolha a forma de envio:</legend>
+
+<input type="radio" selected="selected" name="fate" id="ws" value="life" onchange='togIn(1)' />
+<label for="ws">
+<img src="http://bodysystems.net/images/ped_ws_small.png" alt="thumbs up" align="absmiddle" />
+</label>
+<br/>
+<input type="radio" name="fate" id="correio" value="death" onchange='togIn(2)' />
+<label for="correio">
+<img src="http://bodysystems.net/images/ped_correio_small.png" alt="thumbs down" align="absmiddle" />
+</label>
+</fieldset>
+</td>
+<td style="border:solid 0px #c0c0c0;">
+<center>{SAIDA}{RETIRAR_CORREIO}</center>
+
+</td>
+</tr>
+</table>
+</div>
+<div id="div_frmboleto">
+{BOLETO}
+</div>
+
+
+<p>Para isto, siga os passos a seguir, lembrando que a solicitação é referente a "<strong>3&ordf; Rodada do Workshop 2013</strong>".</p>
+
+
+
+<!--<div style="width:810px; height:140px; padding-left:15px; padding-right:15px; overflow:auto; background-color:#fff">-->
+<div style="width:780px; height:90px; padding-left:15px; padding-right:15px;">
+<!--<h5><strong>Informações imprescindíveis para  realizar sua inscrição:</strong></h5>-->
+<p>
+<img src="http://bodysystems.net/images/checkbox_checked16.png" width="16" height="16" alt="-" align="absmiddle" />&nbsp;
+Os cartazes de lançamento são disponibilizados sem custo de produção; <br />
+<img src="http://bodysystems.net/images/checkbox_checked16.png" width="16" height="16" alt="-" align="absmiddle" />&nbsp;
+O pedido é referente ao material dos mixes a serem lançados no trimestre; <br />
+<img src="http://bodysystems.net/images/checkbox_checked16.png" width="16" height="16" alt="-" align="absmiddle" />&nbsp;
+Você pode optar por recebê-lo no WS/Plantão de sua região ou via Correios em sua academia. Nesta opção, basta arcar com os custos de envio. </p>
+</div> 
+
+
+<div id="frame" style="background-image:url(http://bodysystems.net/images/pedidometro.png); width:960px; height:900px;">
+<!--Texto "Solicite seus Cartazes de Lançamento"-->
+<div id="step01" style="padding-top:60px; margin-left:80px; width:840px; height:70px">
+{INTRO}
+</div>
+<!--Texto "Informações Importantes"-->
+<div id="step02" style="margin-top:35px; margin-left:70px; width:840px; height:230px;">
+    {TERMO}
+    <div style="padding-top:40px; padding-left:20px; " >
+        <input type="checkbox" name="chk_aceito" id="chk_aceito" onchange="aceito()" /><label for="chk_aceito" ><strong>&nbsp;&nbsp;Li e Aceito os Termos de Utilização deste Recurso</strong></label>
+    </div>
+</div>
+<!--Texto "Confirme os programas e esclha a forma de envio"-->
+<div id="step03" style="margin-left:80px; width:840px; height:500px;display:none;">
+    <div style="height:200px; margin-top:25px;">{PROGRAMAS}</div>
+    <div style="height:300px; margin-top:15px;">{BOTOES}</div>
+</div>
+<div id="atencao" style="margin-left:80px; width:840px; height:500px;display:block;"><span class="tip">Aceite os Termos acima antes de prosseguir</span></div>
+<div style="height:200px;margin-top:20px; width:840px">{CORREIO}</div>
+
+<div align='center' style='height:48px; width:48px; float:left; position:relative; padding:5px; border:solid 1px #CCC; margin:5px;'>
+    <img src='images/gestor/$key.jpg' alt='$label' title='$label' onClick='SubmitForm(&quot;$key&quot;)' style='cursor:pointer' /></div>" ;
+    
+    
+    <div class='border_shadow10px' style='width:720px; margin-top:10px; margin-bottom:15px; float:left; margin-right:15px;'>
+    <div class='alert' style='width:670px;'>Não foi possível efetuar sua solicitação.</div>
+    Por gentileza entre em contato com nosso atendimento.<br/>
+    <strong>Club Performance</strong> | Telefone (11) 3529.2880 | <a href='mailto:clubperformance@bodysystems.net' style='text-decoration:none;'>clubperformance@bodysystems.net</a><br /><br />
+    
+    
+    
+    <div class='border_shadow10px' style='width:720px; margin-top:10px; margin-bottom:15px; float:left; margin-right:15px;'>
+    <div class='alert' style='width:670px;'>Sua Solicitação de Cartazes da 3ª Rodada Workshop 2013 já foi efetuada.</div>
+    Confira abaixo a solicitação, caso necessite de alguma alteração por gentileza entre em contato com nosso atendimento.<br/>
+    <strong>Club Performance</strong> | Telefone (11) 3529.2880 | <a href='mailto:clubperformance@bodysystems.net' style='text-decoration:none;'>clubperformance@bodysystems.net</a><br /><br />
+    Nome:&nbsp;<strong>$result[3]</strong><br/>Programas:&nbsp;<strong>$result[5]</strong><br/>Opção:&nbsp;<strong>$result[7]</strong><br/>Local:&nbsp;<strong>$result[9]</strong><br/>Data de Solicitação:&nbsp;<strong>$result[6]</strong></div>" ;
+
+
+<div class='border_shadow10px' style='width:720px; margin-top:10px; margin-bottom:15px; float:left; margin-right:15px;'>
+    <div class='alert' style='width:670px;'>Não foi possível efetuar sua solicitação.</div>
+    Por gentileza entre em contato com nosso atendimento.<br/>
+
+    <strong>Club Performance</strong> | Telefone (11) 3529.2880 | <a href='mailto:clubperformance@bodysystems.net' style='text-decoration:none;'>clubperformance@bodysystems.net</a><br /><br />
+    
+    
+    
+</body>
+</html>

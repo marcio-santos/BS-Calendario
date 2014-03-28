@@ -1,0 +1,262 @@
+<form id="frm_resume" name="frm_Resume" method="post" action="">
+<input type="hidden" id="h_action" name="h_action" value="0" /><!-- 0=>CPF VÁLIDO - JA TEM CADASTRO NO SITE | 1=>CPF VÁLIDO - NÃO TEM CADASTRO NO SITE | 2=>CPF INVÁLIDO -->
+<input type="hidden" id="h_transacao" name="h_transacao" value="{UUID}" />
+<input type="hidden" id="h_valor1" name="h_valor1" value="{VALOR_1}" />
+<input type="hidden" id="h_valor2" name="h_valor2" value="{VALOR_2}" />
+<input type="hidden" id="h_valor_cobrado" name="h_valor_cobrado" value="" />
+<input type="hidden" id="h_certificacao" name="h_certificacao" value="{VALOR_CERTIFICACAO}" />
+<input type="hidden" id="h_desconto" name="h_desconto" value="{VALOR_DESCONTO}" />
+<input type="hidden" id="h_valor_frete" name="h_valor_frete" value="0" />
+<input type="hidden" id="h_formaPagto" name="h_formaPagto" value="boleto" />
+<input type="hidden" id="h_cupom" name="h_cupom" value="" />
+<input type="hidden" id="h_cpf" name="h_cpf" value="" />
+<input type="hidden" id="h_siteid" name="h_siteid" value="0" />
+<input type="hidden" id="h_user" name="h_user" value="0" />
+<input type="hidden" id="h_email" name="h_email" value="0" />
+<input type="hidden" id="h_password" name="h_password" value="0" />
+<input type="hidden" id="h_nome" name="h_nome" value="0" />
+<input type="hidden" id="h_sexo" name="h_sexo" value="0" />
+<input type="hidden" id="h_nascimento" name="h_nascimento" value="0" />
+<input type="hidden" id="h_fone" name="h_fone" value="0" />
+<input type="hidden" id="h_celular" name="h_celular" value="0" />
+<input type="hidden" id="h_promocode" name="h_promocode" value="np" />
+<input type="hidden" id="h_logradouro" name="h_logradouro" value="" />
+<input type="hidden" id="h_numero" name="h_numero" value="" />
+<input type="hidden" id="h_compl" name="h_compl" value="" />
+<input type="hidden" id="h_bairro" name="h_bairro" value="" />
+<input type="hidden" id="h_cidade" name="h_cidade" value="" />
+<input type="hidden" id="h_uf" name="h_uf" value="" />
+<input type="hidden" id="h_cep" name="h_cep" value="" />
+<input type="hidden" id="h_evento_descricao" name="h_evento_descricao" value="{EVENTO_NOME}" />
+<input type="hidden" id="h_evento_id" name="h_evento_id" value="{EVENTO_ID}" />
+<input type="hidden" id="h_cnab" name="h_cnab" value="{CNAB}" />
+<input type="hidden" id="h_sigla" name="h_sigla" value="{SIGLA}" />
+<input type="hidden" id="h_tipo_treino" name="h_tipo_treino" value="{TIPO_TREINO}" />
+<input type="hidden" id="h_finalizado" name="h_finalizado" value="0" />
+</form>
+<div id="main_cog" style='margin-top:30px;margin-left:30%;margin-right:30%;display:block;'><img src='_ferramentas/calendario/images/cloud.gif' /></div>
+<div id="wizard" class="swMain" style="display:none;">
+  <ul id="sidebar">
+    <li><a href="#step-1">
+          <label class="stepNumber">1</label>
+          <span class="stepDesc">
+             Passo 1<br />
+             <small>Informações</small>
+          </span>
+      </a></li>
+    <li><a href="#step-2">
+          <label class="stepNumber">2</label>
+          <span class="stepDesc">
+             Passo 2<br />
+             <small>Endereço para Remessa</small>
+          </span>                  
+       </a></li>
+    <li><a href="#step-3">
+          <label class="stepNumber">3</label>
+          <span class="stepDesc">
+             Passo 3<br />
+             <small>Forma de Pagamento</small>
+          </span>                  
+      </a></li>
+      <li><a href="#step-4">
+          <label class="stepNumber">4</label>
+          <span class="stepDesc">
+             Passo 4<br />
+             <small>Termos e Condições</small>
+          </span>                  
+      </a></li>
+  </ul>
+  <div id="step-1">
+     <h2 class="StepTitle">Informações sobre o Treinamento</h2>
+	<div style="float:right;position:relative;padding:15px;"><img src="_ferramentas/calendario/images/{IMG_VALOR}" /></div>
+     <div style="float:left;font-size:16px;font-weight:bold;padding-left:15px; padding-top:10px;color:ForestGreen">{EVENTO_NOME}</div>
+      <div style="float:left;font-size:13px;padding-left:15px;width:475px;">Local: {ENDERECO}<br/>
+    Horário: {HORARIO}</div>
+      <div style="float:left;font-size:14px;padding:5px;color:red;">{AVISO}</div>
+      <hr style="clear:both"/>
+      <h2 class="StepTitle">Informações Pessoais</h2>
+      <p style="padding-left:30px;">Inicie o preenchimento de seu dados digitando abaixo seu CPF e clicando em 'Verificar'.</p>
+    <form id="frm_checar_cpf" method="post" action="_ferramentas/calendario/services/getEvoInfo.php" style="padding-left:30px;padding-top:10px;">
+      <label for="cpf">Informe seu CPF&nbsp;&nbsp;</label><input alt="cpf" type="text" id="cpf" name="cpf" size="30" placeholder="somente numeros" class="texto" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="bt_checar_cpf" name="bt_checar_cpf" value="Verificar"  />
+      </form>
+      
+    <div id="frame_cadastro" style="padding:40px;height:auto;display:none;">
+      <table>
+	<tr>
+    	<td><div style="height:140px;width:140px;overflow:hidden;">
+        	<img id="avatar" src="_ferramentas/calendario/images/user.png" />
+            </div>
+        </td>
+        <td>
+        	<div id="div_cadastro" style="padding:20px;height:auto;"></div>
+        </td>
+    </tr>
+</table>
+  </div>
+    <div id="vc_frame" style="margin-left:30px;margin-right:30px;">
+    <table width="640">
+    	<tr>
+        <td width="122">
+    <div id="dv_avatar" style="display:none;height:120px;overflow:hidden;"><img id="avatar" src="_ferramentas/calendario/images/user.png" style="width:120px;" /></div></td><td>
+    <div id="div_checa_voce" style="display:none;"></div>
+    </td>
+    </tr>
+    </table>
+    </div>
+    <div id="div_create_user" style="display:none;margin-top:15px;margin-left:30px" >
+<table border="0" cellspacing="2" cellpadding="5" width="600">
+  <tr>
+    <th colspan="4" scope="row" align="">
+    <span id="cadastro_descricao">
+    Como estamos nos conhecendo agora, precisamos que você nos informe alguns dados a seu respeito. Por favor preencha todos os campos abaixo e poderemos continuar.</span><hr style="border:0; border-bottom:2 dashed; margin-top:15px; margin-bottom:15px;" /></th>
+    </tr>
+    <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Seu CPF</div>
+	    <div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="user" type="text" id="user" size="25" maxlength="255" class="validate[required,custom[onlyLetter]] text-input"/></div><div style="float:left; padding-left:10px; padding-right:10px; width:30px;">Senha</div><div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="password" type="password" id="password" size="20" maxlength="13" class="validate[required] text-input" /></div>
+   	</td>
+  </tr>
+   <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Email</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="email" type="text" id="email" size="30" maxlength="255" class="validate[required,custom[email]] text-input"/>
+	  </div>
+      <div style="float:left; padding-left:10px; padding-right:10px; width:40px;">Sexo</div><div style="float:left; padding-left:10px; padding-right:10px;">
+       	<select name="sexo" id="sexo">
+        	<option value="0">Selecione</option>
+        	<option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+       </div>
+  </td>
+  </tr>  
+  <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Nome</div>
+	    <div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="nome" type="text" id="nome" size="30" maxlength="255" class="validate[required,custom[onlyLetterSp]] text-input"/></div>
+      <div style="float:left; padding-left:10px; padding-right:10px; width:40px;">Nascim.</div><div style="float:left; padding-left:10px; padding-right:10px;">
+       	<input name="nascimento" type="text" id="nascimento" size="15" maxlength="10" class="datepicker" /></div>
+	</td>
+  </tr>
+  <tr>
+    <td align="left" scope="row">
+      <div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Celular</div>
+      <div style="float:left; padding-left:10px; padding-right:10px;">
+        <input name="fone1" alt="fone1" type="text" id="fone1" size="20" class="validate[required],custom[phone]" /></div>
+      <div style="float:left; padding-left:10px; padding-right:10px;">Fone Fixo.</div>
+      <div style="padding-left:10px; padding-right:10px;">
+      <input name="fone2" alt="fone2" type="text" id="fone2" size="20" maxlength="20" class="validate[required],custom[phone]" />
+      </td>
+  </tr>
+</table>
+</div>
+  </div>                     
+  <div id="step-2">
+      <h2 class="StepTitle">Endereço</h2>
+      <p style="margin-left:20px;margin-right:20px;margin-top:20px;">Para completar suas informações precisamos que você nos informe seu endereço.<br />
+      Preencha CEP abaixo e após o número de sua residência.</p>
+    <form id="frm_checar_cep" method="post" action="_ferramentas/calendario/services/correios.php" style="padding-left:30px;padding-top:10px;">
+      <label for="cep">Informe seu CEP&nbsp;&nbsp;</label><input type="text" id="cep" name="cep" size="30" placeholder="somente numeros" alt="cep" class="texto"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="bt_checar_cep" name="bt_checar_cep" value="Verificar"  />
+      </form>
+      <div id="cog" style='margin-top:30px;margin-left:35%;display:none;'><img src='_ferramentas/calendario/images/cloud.gif' /></div>
+      <div id="div_result_correios" style="padding:20px;height:auto;display:none">
+      <span class="alert" style="margin-bottom:15px;">*Faça a conferência das informações e inclua o número e complemento se houver.</span>
+      	<input size="60" class="cadastro" type="text" id="logradouro" name="logradouro" placeholder="Informe seu Endereço" value="" /><br/>
+        <input size="60" class="cadastro" type="text" id="bairro" name="bairro" placeholder="Informe seu Bairro"  value="" /><br/>
+        <input size="60" class="cadastro" type="text" id="cidade" name="cidade" placeholder="Informe sua Cidade"  value="" /><br/>
+        <input size="60" class="cadastro" type="text" id="uf" name="uf" value="" /><hr style="margin-bottom:10px;margin-top:10px;"/>
+        <div>
+        <img src="_ferramentas/calendario/images/nao_se_esqueca.gif" style="float:left;margin-right:15px;" />
+        <div style="margin-left:20px;padding:8px;">
+        <label for="numero">*Número &nbsp;</label><input class="cadastro" type="text" id="numero" name="numero" value="" /><br/>
+        <label for="complemento">Complem.&nbsp;</label><input class="cadastro" type="text" id="complemento" name="complemento" value="" /><br/></div>
+        </div>
+      </div>
+      <div id="erro_correios" style="display:none" align="center">
+      	<img src="_ferramentas/calendario/images/correios.png" />
+      </div>
+  </div>
+  <div id="step-3">
+      <h2 class="StepTitle">Forma de Pagamento</h2>  
+      <p style="padding-left:30px;padding-right:20px;padding-top:15px;">Escolha agora a forma de pagamento de sua inscrição, com especial atenção às diferentes vantagens de cada forma de pagamento.</p>
+      <table>
+      	<tr>
+        	<td valign="top">
+           		<div id="boleto" gap="forma_pagto" class="bt_boleto"><img src="_ferramentas/calendario/images/boleto.gif" style="float:left;position:relative;" />PAGUE COM<br/>BOLETO<br/>
+           		</div>
+                <!--<div id="mp" gap="forma_pagto" class="bt_mp"><img src="_ferramentas/calendario/images/mp.gif" style="float:left;position:relative;" />PAGUE COM<br/>CARTÃO</div> -->
+                <div id="pagseg" gap="forma_pagto" class="bt_pagseg"><img src="_ferramentas/calendario/images/pagseg.gif" style="float:left;position:relative;" />PAGUE COM<br/>CARTÃO</div>
+                
+                <div id="cupom" gap="forma_pagto" class="bt_cupom"><img src="_ferramentas/calendario/images/cupom.gif" style="float:left;position:relative;" />PAGUE COM<br/>CUPOM</div>  
+                
+            </td>
+            <td valign="top">
+            	<!--<img id="img_forma_pagto" name="img_forma_pagto" src="_ferramentas/calendario/images/boleto_detalhes.png" /> -->
+                <div id="div_forma_pagto" style="background-image:url(_ferramentas/calendario/images/boleto_detalhes.png); width:400px; height:320px;"><div style="font-size:40px;padding-top:145px;text-align:center;">R$<span id="valor_total">540.00</span></div>
+                	<div id="detalhes_valor" style="font-size:14px;font-weight:bold;text-align:center;display:{DETALHES_VALOR}">Valor do Treinamento: R$<span id="valor_treino">{VALOR_TREINAMENTO}</span><br/>Valor da Certificação: R$<span id="valor_certificacao">{VALOR_CERTIFICACAO}</span><br/>Valor do frete: R$<span id="valor_frete">FRETE</span><span id="valor_desconto" style="display:none"></span><span id="codigo_do_promotor" style="display:none"></span></div>
+                </div>
+                <div id="div_form_cupom" style="display:none;margin-left:20px;" align="center">
+                   <span class="tip">Digite o código de seu CUPOM e clique em validar:</span><br/><br/>
+              <form id="frm_cupom" action="" method="post">
+              <input type="text" alt="numero_cupom" id="numero_cupom" name="numero_cupom" size="32" class="texto" /><input type="button" id="validar_cupom" name="validar_cupom" value="&nbsp;&nbsp;Validar&nbsp;&nbsp;" id="bt_validar_cupom" />
+              </form>
+              <div id="response_cupom"></div>
+                   </div>
+            </td>
+        </tr>
+       </table>
+    
+     <div id="div_promocode" align="center" style="margin-top:10px;display:none">
+     	<span class="tip width35" style="float:left;">Tem um código de promotor?<br/>Aplique-o agora:</span>
+        <form id="frm_promocode" method="post" action="_ferramentas/calendario/services/getCodigoPromotor.php">
+        <input type="hidden" id="treino" name="treino" value="{TREINO}" />
+        <input alt="in_promocode" id="in_promocode" name="in_promocode" type="text" class="texto" size="25" value="" style="margin-top:10px;" /><input type="button" id="bt_aplicar_promo" name="bt_aplicar_promo" value="&nbsp;Aplicar&nbsp;&nbsp;"  style="margin-top:10px;"/>
+        <img id="img_load" src="_ferramentas/calendario/images/activity.gif" style="display:none" /></form>
+     </div>             
+     
+  </div>
+ 
+  <div id="step-4">  
+    <div id="regras">
+    <h2 class="StepTitle">Regras para sua participação</h2>
+    <ul>
+        <h4>
+        <strong>Para confirmar a sua inscrição e participação, é imprescindível:</strong>.</h4><li>Entregar o seu comprovante de pagamento do treinamento no dia do mesmo (sujeito a não liberação da entrada)</li>
+        <li>Chegar com antecedência. (Atrasos não serão bem vindos)</li>
+        <li>E não esqueça de levar roupas para troca durante o dia, pois você vai suar muito!</li>
+    </ul>
+      </div>
+    <br style="clear:bottom" />
+      <div style="float:right;position:relative; padding-right:30px;padding-top:20px;"><input type="checkbox" id="agree" name="agree" style="font-size:16px;" /><label for="agree" style="font-size:16px;">&nbsp;&nbsp;Li e Concordo com os termos acima</label></div>
+  </div>
+</div>
+<div id="efetua_pagto" style="margin-left:10%;margin-right:10%;display:none;">
+<h2 id="hpagto" class="StepTitle">Efetue o Pagamento</h2>
+<small>*Sua vaga somente será confirmada após a apuração de seu pagamento.</small> 
+<div id="pagamento" style="margin-left:10%;padding-top:20px;"></div>
+</div>
+<div id="final_step" style="display:none;margin-left:10%;margin-right:10%">
+<h2 class="StepTitle">Dados da Inscrição</h2> 
+<table id="registro" width="100%" border="0" style="border: dashed 2px #ccc;padding-bottom:15px;">
+	<tr>
+    <td width="55%" valign="top" align="center">
+<p id="tudo_certo" style="font-size:15px;width:95%; text-align:left">Tudo certo!<br/>Os dados de sua inscrição já foram processados.<br/>Contudo ficarão aguardando a confirmação de seu pagamento para que você seja incluido(a) na lista de presença no dia de seu treinamento.</p>
+</td>
+<td width="45%" align="center" valign="top">
+<div id="frame_resume" style="border:1px dashed #c0c0c0; margin-top:10px; margin-left:10%;margin-right:10%;padding:10px;-webkit-border-radius: 10px;
+border-radius: 10px;-webkit-box-shadow:  1px 1px 1px 1px rgba(152, 152, 152, 152); box-shadow:  1px 1px 1px 1px rgba(152, 152, 152, 152); display:block">
+<div id="qrcode" align="center"></div>
+<div id="resume" style="text-align:center"></div>
+</div>
+</td>
+</tr>
+</table>
+<div id="print"><img id="img_print" src="_ferramentas/calendario/images/imprimir.png" /></div>
+<div id="social_buttons">
+
+</div>
+</div>

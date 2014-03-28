@@ -1,0 +1,83 @@
+<div id="dv_create_user" style="display:none" >
+<form id="cadastro" name="cadastro" method="post" action="atualiza_cad/atualiza.php">
+
+<table width="860" border="0" cellspacing="2" cellpadding="5">
+  <tr>
+    <th colspan="4" scope="row" align="left">
+    CRIANDO UMA CONTA DE USUÁRIO</th>
+    </tr>
+    
+    <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Usuário</div>
+	    <div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="user" type="text" id="user" size="30" maxlength="255" class="validate[required,custom[onlyLetter]] text-input"/></div><div style="float:left; padding-left:10px; padding-right:10px; width:30px;">Senha</div><div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="password" type="password" id="password" size="20" maxlength="13" class="validate[required] text-input" /></div>
+            
+            <div style="float:left; padding-left:10px; padding-right:10px; width:50px;">Confirme</div><div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="password2" type="password" id="password2" size="20" maxlength="13" class="validate[required,equals[password]] text-input" /></div>
+            
+            
+	</td>
+  </tr>
+   <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Email</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="email" type="text" id="email" size="50" maxlength="255" class="validate[required,custom[email]] text-input"/>
+	  </div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;"></div>
+        <div style="float:left; padding-left:10px; padding-right:10px; width:20px;">CPF</div><div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="cpf" type="text" id="cpf" size="20" maxlength="13" class="validate[required,custom[onlyNumberSp],maxSize[20],ajax[ajaxCPF]] text-input" placeholder="somente números"/></div>
+	</td>
+  </tr>  
+  <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Nome</div>
+	    <div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input name="nome" type="text" id="nome" size="60" maxlength="255" class="validate[required,custom[onlyLetterSp]] text-input"/></div>
+      <div style="float:left; padding-left:10px; padding-right:10px; width:40px;">Nascim.</div><div style="float:left; padding-left:10px; padding-right:10px;">
+       	<input name="nascimento" type="text" id="nascimento" size="20" maxlength="10" class="validate[required]"/></div>
+	</td>
+  </tr>
+  <tr>
+    <td align="left" scope="row">
+      <div style="float:left; padding-left:10px; padding-right:10px; width:80px;">Celular</div>
+      <div style="float:left; padding-left:10px; padding-right:10px;">
+        <input name="cod_area" type="text" id="cod_area" size="4" maxlength="3" class="validate[required,custom[integer],max[100]] text-input"/>
+        <input name="fone" type="text" id="fone" size="20" maxlength="20" class="validate[required],custom[phone]" /></div>
+      <div style="float:left; padding-left:10px; padding-right:10px;">Fone Fixo.</div>
+      <div style="float:left; padding-left:10px; padding-right:10px;">
+      <input name="cod_area" type="text" id="cod_area" size="6" maxlength="4" class="validate[required,custom[integer],max[100]] text-input"/>
+      <input name="fone" type="text" id="fone" size="20" maxlength="20" class="validate[required],custom[phone]" />
+      </td>
+  </tr>
+  <tr>
+    <td scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">
+        	*Todos os campos são obrigatórios</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+	</td>
+  </tr>
+  <tr>
+    <td scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+	</td>
+  </tr>
+  <tr>
+  	<td align="left" scope="row">
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">
+        	<input type="submit" name="create_user" id="create_user" value="&nbsp;Concordo com os termos de uso. Criar minha conta&nbsp;" /></div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;">&nbsp;</div>
+    	<div style="float:left; padding-left:10px; padding-right:10px;"></div>
+	</td>
+  </tr>
+</table>
+</form>
+</div>
